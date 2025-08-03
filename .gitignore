@@ -139,10 +139,13 @@ js/dist
 js/lib
 js/node_modules
 js/*.tgz
+csp_chatbot/extension
 
 # Jupyter
 .ipynb_checkpoints
 .autoversion
+!csp_chatbot/extension/csp_chatbot.json
+!csp_chatbot/extension/install.json
 csp_chatbot/nbextension
 csp_chatbot/labextension
 
